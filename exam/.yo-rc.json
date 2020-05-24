@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.sph.exam",
+    "packageFolder": "com/sph/exam",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "exam",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "buildTool": "maven",
+    "serverPort": "20000",
+    "skipUserManagement": true,
+    "jhipsterVersion": "5.8.2",
+    "clientPackageManager": "npm",
+    "jwtSecretKey": "MjA1YzAzM2VlMTlmM2Q3ODVkNDBjNTVhMzFmZDhkNjhjOWJiZDIyYmFlNjlhODkzMThlNmZlZmYxMmY5ODg4YjdkZTMzZjdlMTYxOWE5MGVmZTcyNDg3YjcwNTc3YTExNTVkNWI1NTQ5MjBjNzkyYjNlY2MxZjFmM2FkOWYwZjc=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "entities": [
+    "Exam",
+    "ExamQABank",
+    "ExamStudent"
+  ]
+}

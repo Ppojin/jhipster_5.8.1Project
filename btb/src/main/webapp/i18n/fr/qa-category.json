@@ -1,0 +1,10 @@
+{
+  "btbApp": {
+    "Category": {
+      "null": "",
+      "SERVICE": "SERVICE",
+      "CONTROLLER": "CONTROLLER",
+      "SECURITY": "SECURITY"
+    }
+  }
+}

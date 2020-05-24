@@ -1,0 +1,26 @@
+{
+  "btbApp": {
+    "examExamQaBank": {
+      "home": {
+        "title": "ExamQABanks",
+        "createLabel": "Créer un nouveau Exam QA Bank",
+        "createOrEditLabel": "Créer ou éditer un Exam QA Bank"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Exam QA Bank {{ id }} ?"
+      },
+      "detail": {
+        "title": "Exam QA Bank"
+      },
+      "idQABank": "Id QA Bank",
+      "exam": "Exam"
+    }
+  },
+  "examApp": {
+    "examExamQaBank": {
+      "created": "Un nouveau Exam QA Bank a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Exam QA Bank avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Exam QA Bank avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

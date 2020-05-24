@@ -1,0 +1,70 @@
+{
+    "name": "Exam",
+    "fields": [
+        {
+            "fieldName": "idExam",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "title",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "level",
+            "fieldType": "Level",
+            "fieldValues": "ONE,TWO,THREE,FOUR,FIVE",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "startDate",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "endDate",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "examStudent",
+            "otherEntityRelationshipName": "exam",
+            "relationshipName": "examStudent"
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "examQABank",
+            "otherEntityRelationshipName": "exam",
+            "relationshipName": "examQABank",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20200524094924",
+    "entityTableName": "exam",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": [
+        "btb",
+        "exam"
+    ],
+    "microserviceName": "exam"
+}

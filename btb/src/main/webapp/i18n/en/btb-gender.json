@@ -1,0 +1,10 @@
+{
+  "btbApp": {
+    "Gender": {
+      "null": "",
+      "MALE": "MALE",
+      "FEMALE": "FEMALE",
+      "TRANCE": "TRANCE"
+    }
+  }
+}

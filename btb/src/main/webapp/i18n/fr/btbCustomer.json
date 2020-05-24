@@ -1,0 +1,34 @@
+{
+  "btbApp": {
+    "btbCustomer": {
+      "home": {
+        "title": "Customers",
+        "createLabel": "Créer un nouveau Customer",
+        "createOrEditLabel": "Créer ou éditer un Customer"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Customer {{ id }} ?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "idCustomer": "Id Customer",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "city": "City",
+      "signinDate": "Signin Date",
+      "role": "Role",
+      "user": "User"
+    }
+  },
+  "btbApp": {
+    "btbCustomer": {
+      "created": "Un nouveau Customer a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Customer avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Customer avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

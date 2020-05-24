@@ -1,0 +1,26 @@
+{
+  "btbApp": {
+    "examExamStudent": {
+      "home": {
+        "title": "Exam Students",
+        "createLabel": "Create a new Exam Student",
+        "createOrEditLabel": "Create or edit a Exam Student"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Exam Student {{ id }}?"
+      },
+      "detail": {
+        "title": "Exam Student"
+      },
+      "idCustomer": "Id Customer",
+      "exam": "Exam"
+    }
+  },
+  "examApp": {
+    "examExamStudent": {
+      "created": "A new Exam Student is created with identifier {{ param }}",
+      "updated": "A Exam Student is updated with identifier {{ param }}",
+      "deleted": "A Exam Student is deleted with identifier {{ param }}"
+    }
+  }
+}

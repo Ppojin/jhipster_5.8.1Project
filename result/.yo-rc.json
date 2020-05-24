@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.sph.result",
+    "packageFolder": "com/sph/result",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "result",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "buildTool": "maven",
+    "serverPort": "30000",
+    "skipUserManagement": true,
+    "jhipsterVersion": "5.8.2",
+    "clientPackageManager": "npm",
+    "jwtSecretKey": "ZjJmY2RlZGViOWY4MWYzMzVkMjYzN2E3NDRmYWYzNjM3ZjYxZmZkZDFlOWJjNjBiODE3ZmQyZDM5ZjgzOGUxMTg3YTlmYmUzYmNiZTk0ODkyMWEyNWZiYjYzNGY3OTc1NDY1NTY4NzY2NjJkYWIwYzVhOTdhYmQ1ZWQ4YjNmOTU=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "entities": [
+    "ExamResult"
+  ]
+}

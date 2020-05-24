@@ -1,0 +1,29 @@
+{
+  "btbApp": {
+    "qaQABank": {
+      "home": {
+        "title": "QABanks",
+        "createLabel": "Créer un nouveau QA Bank",
+        "createOrEditLabel": "Créer ou éditer un QA Bank"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le QA Bank {{ id }} ?"
+      },
+      "detail": {
+        "title": "QA Bank"
+      },
+      "idQABank": "Id QA Bank",
+      "title": "Title",
+      "contents": "Contents",
+      "gitUrl": "Git Url",
+      "category": "Category"
+    }
+  },
+  "qaApp": {
+    "qaQABank": {
+      "created": "Un nouveau QA Bank a été créé avec l'identifiant {{ param }}",
+      "updated": "Le QA Bank avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le QA Bank avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

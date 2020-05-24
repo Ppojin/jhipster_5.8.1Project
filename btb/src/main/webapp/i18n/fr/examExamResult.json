@@ -1,0 +1,30 @@
+{
+  "btbApp": {
+    "examExamResult": {
+      "home": {
+        "title": "ExamResults",
+        "createLabel": "Créer un nouveau Exam Result",
+        "createOrEditLabel": "Créer ou éditer un Exam Result"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Exam Result {{ id }} ?"
+      },
+      "detail": {
+        "title": "Exam Result"
+      },
+      "idExcerciseResult": "Id Excercise Result",
+      "score": "Score",
+      "gitUrl": "Git Url",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "result": "Result"
+    }
+  },
+  "examApp": {
+    "examExamResult": {
+      "created": "Un nouveau Exam Result a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Exam Result avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Exam Result avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

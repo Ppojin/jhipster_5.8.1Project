@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.sph.qa",
+    "packageFolder": "com/sph/qa",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "qa",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "buildTool": "maven",
+    "serverPort": "10000",
+    "skipUserManagement": true,
+    "jhipsterVersion": "5.8.2",
+    "clientPackageManager": "npm",
+    "jwtSecretKey": "MjFiZGVhYzFlYmY3MTI1OGExZWY3NzcwMzYwMmU2YTBhZWUyOWE1MDQwZGQzMTUyZjcwNmMyNjAzNDcwZTEzYzdjMTJjZTJlNDcxNWNlY2EyOWU5YTc1OTVlMGNiOWQ0OWQzMmNkNjVjMmJhZDJlNTE2ZTlmNTBiOGJhOGE2NmU=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "entities": [
+    "QABank"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.sph.btb",
+    "packageFolder": "com/sph/btb",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "serviceDiscoveryType": false,
+    "skipClient": false,
+    "skipServer": false,
+    "testFrameworks": [
+      "protractor"
+    ],
+    "websocket": false,
+    "baseName": "btb",
+    "applicationType": "gateway",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "buildTool": "maven",
+    "clientFramework": "react",
+    "useSass": true,
+    "jhipsterVersion": "5.8.2",
+    "skipUserManagement": false,
+    "clientPackageManager": "npm",
+    "serverPort": "8080",
+    "jwtSecretKey": "ZjIzYWIxNDljNzUxZjI2OWY1NjRjZDk1MTk0ZDAzMTI4OGQ3NTExNDg4NGEzNGFlMGYwM2YyZDE5ZTNiYWNlMTJkOWMyNzcwOTE0YTg0MDAzMjVjMjE1MGIzYjljMDI1MjQyZWRhYmI5NDFkZmVkOThkOGVmMTY4MmEyNzA3Yzk=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "entities": [
+    "Customer",
+    "QABank",
+    "Exam",
+    "ExamQABank",
+    "ExamStudent",
+    "ExamResult"
+  ]
+}

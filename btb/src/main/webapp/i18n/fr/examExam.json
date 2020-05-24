@@ -1,0 +1,31 @@
+{
+  "btbApp": {
+    "examExam": {
+      "home": {
+        "title": "Exams",
+        "createLabel": "Créer un nouveau Exam",
+        "createOrEditLabel": "Créer ou éditer un Exam"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Exam {{ id }} ?"
+      },
+      "detail": {
+        "title": "Exam"
+      },
+      "idExam": "Id Exam",
+      "title": "Title",
+      "level": "Level",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "examStudent": "Exam Student",
+      "examQABank": "Exam QA Bank"
+    }
+  },
+  "examApp": {
+    "examExam": {
+      "created": "Un nouveau Exam a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Exam avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Exam avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}
